@@ -1,8 +1,8 @@
 <?php
-define('SERVER', "sqlprive-pc2372-001.privatesql.ha.ovh.net:3306");
-define('USER', "cefiidev1175");
-define('PASSWORD', "y34Dmn3E");
-define('BASE', "cefiidev1175");
+define('SERVER', "votre connexion");
+define('USER', "votre nom d'user");
+define('PASSWORD', "votre mot de passe");
+define('BASE', "votre nom de base");
 
 try {
     $bdd = new PDO("mysql:host=" . SERVER . ";dbname=" . BASE, USER, PASSWORD);
